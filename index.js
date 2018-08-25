@@ -30,7 +30,7 @@ module.exports = {
 
   menus: [
     {
-      name: 'Plugin FLL',
+      name: 'Plugin OBR',
       childs: [
         {
           path: '/tournamenter-obr',
