@@ -49,7 +49,7 @@ var app = angular.module('app.scorers', [])
   var scorings ={
     rooms: [0, 60, 40, 20, 0],
     corridors: [0,30,20,10,0],
-    gaps: [0,10],
+    gaps: [0,999],
 
     obstacles: [0,10],
     speedbump: [0, 5],
