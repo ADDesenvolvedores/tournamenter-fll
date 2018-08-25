@@ -1,5 +1,5 @@
-# tournamenter-obr
-Extensão para o Tournamenter que permite pontuar pelo tablet em competições da OBR
+# tournamenter-fll
+Extensão para o Tournamenter que permite pontuar pelo tablet em competições da FLL
 
 ## Instalação desta Extensão
 * Baixe o [Tournamenter App](https://github.com/ivanseidel/TournamenterApp) e instale
