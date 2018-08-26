@@ -4,7 +4,8 @@ var app = angular.module('app.scorers', [])
 
   var model = {
     m01: {
-    
+      'first': 0,
+      'secc': 0,
     },
     corridors: {
       'ramp': 0,
@@ -46,7 +47,7 @@ var app = angular.module('app.scorers', [])
   };
 
   var scorings ={
-    m01: [0, 22, 14, 10,0],
+    m01: [0, 22, 14, 10],
     corridors: [0,30,20,10,0],
     gaps: [0,999],
 
