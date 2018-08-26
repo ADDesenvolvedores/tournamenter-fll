@@ -3,7 +3,7 @@ var app = angular.module('app.scorers', [])
 .factory('RescueScorer2018Regional', function (){
 
   var model = {
-    marcadores: {
+    rooms: {
       'first': 0,
       'secc': 0,
     },
@@ -47,7 +47,7 @@ var app = angular.module('app.scorers', [])
   };
 
   var scorings ={
-    marcadores: [0, 22, 14, 10],
+    rooms: [0, 22, 14, 10],
     corridors: [0,30,20,10,0],
     gaps: [0,999],
 
