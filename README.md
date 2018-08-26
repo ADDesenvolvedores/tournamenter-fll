@@ -24,3 +24,5 @@ Apenas faça o download do arquivo e execute-o, o instalador fará o resto para 
 * **Alexandre Hiroyuki** - *Programação, Estilização e Documentação* - [AlexandreHiroyuki](https://github.com/AlexandreHiroyuki)
 
 * **Aluisio Amorim** - *Programação e Documentação* - [Amorim33](https://github.com/Amorim33)
+
+*Este plugin foi baseado no plugin [tournamenter-obr](https://github.com/ivanseidel/tournamenter-obr.git) desenvolvido por [Ivan Seidel](https://github.com/ivanseidel), também o desenvolvedor do aplicativo Tournamenter*
