@@ -11,9 +11,7 @@ Extensão para o Tournamenter que permite pontuar pelo tablet em competições d
 ### Instalando a Extenção
 
 * Baixe o [Tournamenter App](https://github.com/ivanseidel/TournamenterApp) e instale.
-```
-Apenas faça o download do arquivo e execute-o, o instalador fará o resto para você!
-```
+`Apenas faça o download do arquivo e execute-o, o instalador fará o resto para você!`
 
 * Instale este módulo no gerenciador de extensões do Tournamenter, incluindo a seguinte URL: `https://github.com/ADDesenvolvedores/tournamenter-fll.git`.
 
