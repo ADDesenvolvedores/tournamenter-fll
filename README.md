@@ -21,4 +21,6 @@ Apenas faça o download do arquivo e execute-o, o instalador fará o resto para 
 
 ## Autores
 
-* **Alexandre Hiroyuki** - *Design, Estilização e Documentação* - [AlexandreHiroyuki](https://github.com/AlexandreHiroyuki)
+* **Alexandre Hiroyuki** - *Programação, Estilização e Documentação* - [AlexandreHiroyuki](https://github.com/AlexandreHiroyuki)
+
+* **Aluisio Amorim** - *Programação e Documentação* - [Amorim33](https://github.com/Amorim33)
