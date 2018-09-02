@@ -51,7 +51,7 @@ var app = angular.module('app.scorers', [])
     corridors: [0,30,20,10,0],
     gaps: [0,999],
 
-    obstacles: [0,10],
+    obstacles: [0,22,14,10],
     speedbump: [0, 5],
     intersection: [0,10],
     passage: [0, 10],
