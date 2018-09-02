@@ -6,12 +6,14 @@ var app = angular.module('app.scorers', [])
     m01: {
       'm01Pts': 0,
     },
-
+    m02:{
+      'm02Pts': 0,
+    }
   };
 
   var scorings ={
     m01: [0, 22, 14, 10],
-
+    m02: [0, 22, 18],
   }
 
   return {
