@@ -46,7 +46,7 @@
           <label class="btn btn-default" ng-model="scoreData.m01"
             btn-radio="3">trip</label>
           
-          <span class="input-group-addon">{{scorings.m01}} pts</span>
+          <span class="input-group-addon">{{scorings.m01 || 0}} pts</span>
         </div>
 
         <div style="margin-top: 44px;" class="btn btn-lg btn-block navbar-btn btn-danger" ng-click="timer.stop();" ng-class="{disabled: timer.data.state == 'STOPPED'}">
