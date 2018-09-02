@@ -37,16 +37,16 @@
       <div class="thumbnail">
         <h5>Missão 1 - Viagem Espacial</h5>
         <div class="btn-group btn-group-justified">
-          <label class="btn btn-default" ng-model="scoreData.m01[m01Pts]"
+          <label class="btn btn-default" ng-model="scoreData.m01"
             btn-radio="0">Não</label>
-          <label class="btn btn-default" ng-model="scoreData.m01[m01Pts]"
+          <label class="btn btn-default" ng-model="scoreData.m01"
             btn-radio="1">vei</label>
-          <label class="btn btn-default" ng-model="scoreData.m01[m01Pts]"
+          <label class="btn btn-default" ng-model="scoreData.m01"
             btn-radio="2">sup</label>
-          <label class="btn btn-default" ng-model="scoreData.m01[m01Pts]"
+          <label class="btn btn-default" ng-model="scoreData.m01"
             btn-radio="3">trip</label>
           
-          <span class="input-group-addon">{{scorings.m01[m01Pts] || 0}} pts</span>
+          <span class="input-group-addon">{{scorings.m01 || 0}} pts</span>
         </div>
 
         <div style="margin-top: 44px;" class="btn btn-lg btn-block navbar-btn btn-danger" ng-click="timer.stop();" ng-class="{disabled: timer.data.state == 'STOPPED'}">
