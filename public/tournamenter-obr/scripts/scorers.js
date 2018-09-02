@@ -4,7 +4,7 @@ var app = angular.module('app.scorers', [])
 
   var model = {
     m01: {
-      
+      'm01Pts': 0,
     },
 
   };
