@@ -54,11 +54,23 @@
           <label class="btn btn-default" ng-model="scoreData.m02['m02Pts']"
             btn-radio="0">Não</label>
           <label class="btn btn-default" ng-model="scoreData.m02['m02Pts']"
-            btn-radio="1">ambas</label>
+            btn-radio="1">Ambas</label>
           <label class="btn btn-default" ng-model="scoreData.m02['m02Pts']"
-            btn-radio="2">apenas a sua</label>
+            btn-radio="2">Apenas a sua</label>
           
           <span class="input-group-addon">{{scorings.m02['m02Pts'] || 0}} pts</span>
+        </div>
+        
+        <h5>Missão 3 - Impressão 3D </h5>
+        <div class="btn-group btn-group-justified">
+          <label class="btn btn-default" ng-model="scoreData.m03['m03Pts']"
+            btn-radio="0">Não</label>
+          <label class="btn btn-default" ng-model="scoreData.m02['m03Pts']"
+            btn-radio="1">Completo</label>
+          <label class="btn btn-default" ng-model="scoreData.m02['m03Pts']"
+            btn-radio="2">Incompleto</label>
+          
+          <span class="input-group-addon">{{scorings.m03['m03Pts'] || 0}} pts</span>
         </div>
 
         <div style="margin-top: 44px;" class="btn btn-lg btn-block navbar-btn btn-danger" ng-click="timer.stop();" ng-class="{disabled: timer.data.state == 'STOPPED'}">
