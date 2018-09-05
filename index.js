@@ -135,7 +135,7 @@ module.exports = {
       if (newestVersion != currentVersion) {
         hasUpdate = newestVersion
         console.log()
-        console.log('>>>>>>>>>> NOVO UPDATE PARA O tournamenter-obr')
+        console.log('>>>>>>>>>> NOVO UPDATE PARA O tournamenter-fll')
         console.log('>>>>>>>>>> Versão: '+newestVersion)
         console.log()
       }

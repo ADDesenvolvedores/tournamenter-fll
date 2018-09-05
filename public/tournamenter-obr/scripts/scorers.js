@@ -3,64 +3,17 @@ var app = angular.module('app.scorers', [])
 .factory('RescueScorer2018Regional', function (){
 
   var model = {
-    rooms: {
-      'first': 0,
-      'secc': 0,
+    m01: {
+      'm01Pts': 0,
     },
-    corridors: {
-      'ramp': 0,
-    },
-    gaps: {
-
-    },
-    obstacles: {
-
-    },
-    speedbump: {
-
-    },
-    intersection: {
-
-    },
-    passage: {
-
-    },
-    beco: {
-
-    },
-
-    saiu_salvamento: {
-      'final': 0,
-    },
-
-    victims: {
-      '1a': 0,
-      '2a': 0,
-      '3a': 0,
-      'desafio': 0,
-    },
-    victims_dead: {
-      '1a': 0,
-      '2a': 0,
-      '3a': 0,
+    m02:{
+      'm02Pts': 0,
     }
   };
 
   var scorings ={
-    rooms: [0, 22, 14, 10],
-    corridors: [0,30,20,10,0],
-    gaps: [0,999],
-
-    obstacles: [0,10],
-    speedbump: [0, 5],
-    intersection: [0,10],
-    passage: [0, 10],
-    beco: [0, 10],
-
-    saiu_salvamento: [0, 20],
-
-    victims: [0, 60, 40, 20],
-    victims_dead: [0, 50, 30, 10],
+    m01: [0, 22, 14, 10],
+    m02: [0, 22, 18],
   }
 
   return {
