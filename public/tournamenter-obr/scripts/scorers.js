@@ -46,7 +46,7 @@ var app = angular.module('app.scorers', [])
           var pointsGroup = scorings[k];
           var points;
           if(typeof pointsGroup == 'number'){
-            points = scorings[k][mission];
+            points = pointsGroup * mission;
           }else{
             points = scorings[k][mission];
           }
