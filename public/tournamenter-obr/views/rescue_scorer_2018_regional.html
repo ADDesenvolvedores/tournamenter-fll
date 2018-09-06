@@ -72,6 +72,16 @@
           
           <span class="input-group-addon">{{scorings.m03['m03Pts'] || 0}} pts</span>
         </div>
+        
+        <h5>Missão 4 - Travessia da Cratera </h5>
+        <div class="btn-group btn-group-justified">
+          <label class="btn btn-default" ng-model="scoreData.m03['m03Pts']"
+            btn-radio="0">Não</label>
+          <label class="btn btn-default" ng-model="scoreData.m03['m03Pts']"
+            btn-radio="1">Passou</label>
+        
+          <span class="input-group-addon">{{scorings.m03['m03Pts'] || 0}} pts</span>
+        </div>
 
         <div style="margin-top: 44px;" class="btn btn-lg btn-block navbar-btn btn-danger" ng-click="timer.stop();" ng-class="{disabled: timer.data.state == 'STOPPED'}">
           <span class="glyphicon glyphicon-pause"></span> Parar Tempo
