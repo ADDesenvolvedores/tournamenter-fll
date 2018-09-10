@@ -1,6 +1,6 @@
 {
-  "name": "tournamenter-obr",
-  "description": "Tournamenter scorer app for OBR",
+  "name": "tournamenter-fll",
+  "description": "Tournamenter scorer app for FLL",
   "version": "1.0.0",
   "authors": [
     "Ivan Seidel <ivan@tendadigital.net>"

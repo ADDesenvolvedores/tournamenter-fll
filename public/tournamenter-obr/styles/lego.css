@@ -5,3 +5,8 @@ btn {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+body {
+    background-image: url("images/lego-bg.jpg");
+    background-color: white;
+}
