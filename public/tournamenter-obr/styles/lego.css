@@ -7,6 +7,6 @@ btn {
 }
 
 .container {
-    background-image: url("images/lego-bg.jpg");
     background-color: white;
+    background-image: url("images/lego-bg.jpg");
 }
