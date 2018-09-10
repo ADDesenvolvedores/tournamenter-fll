@@ -6,7 +6,7 @@ btn {
     background-size: cover;
 }
 
-body {
+.container {
     background-image: url("images/lego-bg.jpg");
     background-color: white;
 }
