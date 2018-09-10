@@ -1,6 +1,6 @@
 var app = angular.module('app.scorers', [])
 
-.factory('RescueScorer2018Regional', function (){
+.factory('FLL2018', function (){
 
   var model = {
     m01: {
@@ -15,6 +15,39 @@ var app = angular.module('app.scorers', [])
     m04:{
       'm04Pts': 0,
     },
+    m05:{
+     'm05Pts': 0,
+    },
+    m06:{
+     'm06Pts': 0,
+    },
+    m07:{
+     'm07Pts': 0,
+    },
+    m08:{
+     'm08Pts': 0,
+    },
+    m09:{
+     'm09Pts': 0,
+    },
+    m10:{
+     'm10Pts': 0,
+    },
+    m11:{
+     'm11Pts': 0,
+    },
+    m12:{
+     'm12Pts': 0,
+    },
+    m13:{
+     'm13Pts': 0,
+    },
+    m14:{
+     'm14Pts': 0,
+    },
+    m15:{
+     'm15Pts': 0,
+    },
   };
 
   var scorings ={
@@ -22,10 +55,21 @@ var app = angular.module('app.scorers', [])
     m02: [0, 22, 18],
     m03: [0,22,18],
     m04: [0,20],
+    m05: [],
+    m06: [],
+    m07: [],
+    m08: [],
+    m09: [],
+    m10: [],
+    m11: [],
+    m12: [],
+    m13: [],
+    m14: [],
+    m15: [],
   }
 
   return {
-    view: 'views/rescue_scorer_2018_regional.html?r='+Math.random(),
+    view: 'views/FLL2018.html?r='+Math.random(),
     model: model,
     scorings: scorings,
     totalTime: 300,
